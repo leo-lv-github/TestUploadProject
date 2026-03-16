@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		13CC8F652F67A3B60086E210 /* Secrets.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 13CC8F642F67A3B60086E210 /* Secrets.xcconfig */; };
+		13CC8F912F67B7FA0086E210 /* Secrets.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 13CC8F902F67B7FA0086E210 /* Secrets.xcconfig */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		133F006A2F5ECE17005A7455 /* TestOpenRouter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestOpenRouter.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13CC8F642F67A3B60086E210 /* Secrets.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Secrets.xcconfig; sourceTree = "<group>"; };
+		13CC8F902F67B7FA0086E210 /* Secrets.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Secrets.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -50,7 +50,7 @@
 		133F00612F5ECE17005A7455 = {
 			isa = PBXGroup;
 			children = (
-				13CC8F642F67A3B60086E210 /* Secrets.xcconfig */,
+				13CC8F902F67B7FA0086E210 /* Secrets.xcconfig */,
 				133F006C2F5ECE17005A7455 /* TestOpenRouter */,
 				133F006B2F5ECE17005A7455 /* Products */,
 			);
@@ -128,7 +128,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				13CC8F652F67A3B60086E210 /* Secrets.xcconfig in Resources */,
+				13CC8F912F67B7FA0086E210 /* Secrets.xcconfig in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,7 +147,6 @@
 /* Begin XCBuildConfiguration section */
 		133F00732F5ECE19005A7455 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 13CC8F642F67A3B60086E210 /* Secrets.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
